@@ -1,0 +1,26 @@
+# Secretos
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos pesados (documenta de dónde bajarlos en el README)
+data/raw/
+*.csv.gz
+*.parquet
+
+# Material de cursos de terceros (UVM, Coursera, etc.)
+material-curso/
+*.pdf
+
+# Sistema
+.DS_Store
+Thumbs.db
